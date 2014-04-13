@@ -30,13 +30,13 @@ Starting the server is relatively easy. There are two ways of doing this:
 
 To run the application through SBT, run the following command:
 
-> sbt container:start shell
+    sbt container:start shell
 
 It might take some time to compile if you haven't done this yet and then you will see a shell. Then your service will become available and you will be able to query it through the browser.
 
 To stop the server, run:
 
-> container:stop
+    container:stop
 
 ### Running the Server Through a Fat JAR
 
@@ -44,15 +44,22 @@ For this operation you will need to create the fat jar first and then simply sta
 
 To build the fat jar:
 
-> sbt assembly
+    sbt assembly
 
 To run the application:
 
-> java -jar jar-name.jar
+    java -jar jar-name.jar
 
 Then to stop the application, just press Ctrl+C.
+
+Skeleton
+--------
+
+We have a basic skeleton with almost no functionality that can be used to quickly start developing new APIs.
+
+It is on the following branch: [feature/Scala_Api_Skeleton](https://github.com/nikolovivan/scala-api/tree/feature/Scala_Api_Skeleton). Just clone it and you are ready to go!
 
 Conclusion
 ----------
 
-This is the skeleton application you can use to quickly start your development. From then on, it is up to you to add the dependencies you need and make the API do whatever you want.
+We hope you like the API and find it useful.
