@@ -15,3 +15,11 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# IntelliJ specific
+.idea/
+.idea_modules/
+/classes
+/out
+/SDK/*SDK
+/*.bat
