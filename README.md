@@ -42,10 +42,13 @@ To stop the server, run:
 
 For this operation you will need to create the fat jar first and then simply start it as normal Java application.
 
-1.  Building the fat jar:
-    > sbt assembly
-2.  Running the application:
-    > java -jar jar-name.jar
+To build the fat jar:
+
+> sbt assembly
+
+To run the application:
+
+> java -jar jar-name.jar
 
 Then to stop the application, just press Ctrl+C.
 
